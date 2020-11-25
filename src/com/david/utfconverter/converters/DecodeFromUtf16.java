@@ -2,8 +2,8 @@ package com.david.utfconverter.converters;
 
 public class DecodeFromUtf16 {
 
-    public int decodeUTF_16(final int encodedSign){
-        if((encodedSign >= 0x0000 && encodedSign <= 0xD7FF) || (encodedSign >= 0xE000 && encodedSign <= 0xFFFF)){
+    public int decodeUTF_16(final int encodedSign) {
+        if ((encodedSign >= 0x0000 && encodedSign <= 0xD7FF) || (encodedSign >= 0xE000 && encodedSign <= 0xFFFF)) {
             return encodedSign;
         }
 
